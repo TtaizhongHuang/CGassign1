@@ -33,7 +33,10 @@ InitFishs(void)
 {
 
 }
-
+void
+Animate() {
+	return;
+}
 void
 Init(void){
 GLfloat light_position[] = { 0,50,-100,1 };
@@ -75,6 +78,8 @@ Key(unsigned char key, int x, int y)
 		}
 	}
 }
+
+
 
 void
 Display(void)
